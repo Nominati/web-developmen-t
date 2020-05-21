@@ -1,3 +1,28 @@
+.RZagolovok
+{
+   margin: 1em 0 0.5em 0;
+   color: #343434;
+   font-size: 25px;
+   line-height: 40px;
+   font-weight: normal;
+   font-family: 'Orienta', sans-serif;
+   letter-spacing: 1px;
+   font-style: italic;
+}
+
+.RequestText
+{
+  margin-bottom: 50px;
+
+}
+
+.request
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 16em;
+}
+
 .photo
 {
   height: 350px;

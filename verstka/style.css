@@ -1,3 +1,40 @@
+.gender_radio {
+	display: none;
+}
+.gender {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+  margin-top: 10px;
+}
+.gender:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background: url(https://snipp.ru/img/radio-1.png) 0 0 no-repeat;
+}
+
+.gender_radio:checked + .gender:before {
+	background: url(https://snipp.ru/img/radio-2.png) 0 0 no-repeat;
+}
+
+/* Hover */
+.gender_radio:hover:before {
+	filter: brightness(120%);
+}
+
+/* Disabled */
+.gender_radio:disabled + .gender:before {
+	filter: grayscale(100%);
+}
 .message_filed:focus
 {
   border: 2px solid #33cc99;
@@ -26,6 +63,7 @@
   color: white;
   height: 24px;
   width: 120px;
+  margin-bottom: 20px;
 }
 
 .message_filed
@@ -35,13 +73,6 @@
   border: 2px solid #ccc;
   border-radius: 3px;
   outline: none;
-}
-
-
-.gender_radio
-{
-  background-color: black;
-  margin-bottom: 15px;
 }
 
 .gender
@@ -62,6 +93,7 @@
   font-size: 12px;
   line-height: 12px;
   color: #333333;
+  margin-top: 10px;
 }
 
 .input_text

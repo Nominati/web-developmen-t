@@ -1,26 +1,145 @@
+.message_filed:focus
+{
+  border: 2px solid #33cc99;
+}
+
+.country_field:focus
+{
+  border: 2px solid #33cc99;
+}
+
+.name_field:focus
+{
+  border: 2px solid #33cc99;
+}
+
+.submit
+{
+  background-color: #33cc99;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 12px;
+  color: white;
+  height: 24px;
+  width: 120px;
+}
+
+.message_filed
+{
+  height: 50px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+
+.gender_radio
+{
+  background-color: black;
+  margin-bottom: 15px;
+}
+
+.gender
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+}
+
+.gender_field
+{
+  height: 1px;
+  width: 250px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+}
+
+.input_text
+{
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 12px;
+  width: 258px;
+}
+
+.form
+{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+.name_field
+{
+  width: 250px;
+  height: 18px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+.country_field
+{
+  width: 258px;
+  height: 24px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+.name
+{
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 569px;
+}
+
 .RZagolovok
 {
-   margin: 1em 0 0.5em 0;
-   color: #343434;
-   font-size: 25px;
-   line-height: 40px;
-   font-weight: normal;
-   font-family: 'Orienta', sans-serif;
-   letter-spacing: 1px;
-   font-style: italic;
+  color: #333333;
+  font: normal 36px/32px 'Open Sans', sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+  width: 569px;
 }
 
 .RequestText
 {
-  margin-bottom: 50px;
-
+  margin-bottom: 30px;
 }
 
 .request
 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 16em;
+  margin-left: 210px;
+  margin-right: 210px;
+  width: 700px;
+
 }
 
 .photo
@@ -85,7 +204,7 @@
 {
   text-align: left;
   float: right;
-  height: 1080px;
+  height: 950px;
   margin-left: 50px;
   width: 570px;
   margin-right: 25px;
@@ -93,7 +212,7 @@
 
 .main_body
 {
-  height: 640px;
+  height: 580px;
   margin-top: 80px;
   width: 570px;
 }
@@ -122,7 +241,7 @@
 
 .main_text
 {
-  height: 205px;
+  height: 180px;
   margin-left: 2px;
   margin-top: 44px;
   width: 570px;
@@ -132,11 +251,10 @@
 
 .h2
 {
-  color: #333333;
   font: normal 36px/32px 'Open Sans', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-size: 36px;
-  font-weight: normal;
+  font-weight: 800;
   line-height: 32px;
   margin-bottom: 20px;
   margin-top: 35px;
@@ -159,7 +277,7 @@
 {
   text-align: left;
   float: right;
-  height: 1080px;
+  height: 950px;
   margin-left: 20px;
   width: 330px;
 }

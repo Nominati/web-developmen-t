@@ -4,6 +4,7 @@
     <meta charset=utf-8/>
     <title>Блоки</title>
     <link href="style.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
   <div class="site">
@@ -28,7 +29,7 @@
           <p class="main_text">
               Помню в 1840 любил гулять слушать музыку. Помню еще в 90-е купил себе порш каен. И как бы всееее.
           </p>
-          <h2 class="h2">Что я и как?</h2>
+          <h2 class="h2">Мое хобби</h2>
           <p class="main_text">
               Хочу сдать на права и ездить на порш каен. И как бы всееееееееееее.
           </p>
@@ -62,15 +63,15 @@
 
       <div class="request">
         <div class="RequestText">
-          <p class="RZagolovok">Напиши Мне</p>
+          <p class="RZagolovok">⎯⎯⎯⎯⎯⎯⎯⎯ НАПИШИ МНЕ ⎯⎯⎯⎯⎯⎯⎯⎯</p>
         </div>
         <form method="GET" class="form">
-          <label for="your_name" class="form_text form_text_required">Ваше имя</label>
-          <input type="text" id="your_name" name="your_name" required class="field name_field input_text all_fields"/>
-          <label for="email" class="form_text form_text_required">Ваш email</label>
-          <input type="email" id="email" name="email" required class="field email_field input_text all_fields"/>
-          <label for="country" class="form_text form_text_required">Откуда вы</label>
-          <select name="country" id="country" class="country_field all_fields">
+          <label for="your_name" class="name">Ваше имя</label><br>
+          <input type="text" id="your_name" name="your_name" required class="name_field"/><br>
+          <label for="email" class="name">Ваш email</label><br>
+          <input type="email" id="email" name="email" required class="name_field"/><br>
+          <label for="country" class="name">Откуда вы?</label><br>
+          <select name="country" id="country" class="country_field">
             <option value="rus" class="input_text">Россия</option>
             <option value="uk" class="input_text">Украина</option>
             <option value="by" class="input_text">Беларусь</option>
@@ -79,13 +80,13 @@
             <option value="ger" class="input_text">Германия</option>
             <option value="usa" class="input_text">США</option>
           </select>
-          <p class="form_text gender_margin">Ваш пол</p>
+          <p class="gender_field">Ваш пол</p>
           <input type="radio" id="male" class="gender_radio" name="gender" value="male" checked>
           <label for="male" class="gender">Мужской</label>
-          <input type="radio" id="female" class="gender_radio gender_radio_female" name="gender" value="female">
+          <input type="radio" id="female" class="gender_radio" name="gender" value="female">
           <label for="female" class="gender">Женский</label><br>
-          <label for="message" class="form_text message_margin form_text_required">Ваше сообщение</label>
-          <textarea name="message" required id="message" class="message input_text all_fields"></textarea>
+          <label for="message" class="gender">Ваше сообщение</label><br>
+          <textarea name="message" required id="message" class="message_filed"></textarea><br>
           <input type="submit" value="Отправить" class="submit">
         </form>
       </div>
